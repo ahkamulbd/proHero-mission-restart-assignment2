@@ -8,7 +8,7 @@ function Banner() {
   const [resolved, setResolved] = useState(0);
 
   return (
-    <div className="max-w-7xl mx-auto my-10 grid grid-cols-2 gap-4">
+    <div className="max-w-7xl mx-auto my-10 grid grid-cols-none md:grid-cols-2 gap-4">
 
       {/* In Progress Card */}
       <div

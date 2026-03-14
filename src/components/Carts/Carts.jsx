@@ -10,7 +10,7 @@ const Carts = ({ticketPromise}) => {
         <div className='w-3/4  pt-5'>
             <h2 className='ml-3 text-2xl mb-3'>Customer Tickets</h2>
 
-            <div className='grid grid-cols-2'>
+            <div className='grid grid-cols-none md:grid-cols-2'>
                 {
                     ticketsData.map (ticket => 
                         <div className='bg-white m-3 p-5 rounded-xl '>
@@ -22,7 +22,8 @@ const Carts = ({ticketPromise}) => {
                             <p className='my-10 text-justify h-[100px]'>
                                 {ticket.description}
                             </p>
-                            <div className='flex justify-between'>
+                            
+                            <div className='grid grid-cols-2 md:grid-cols-4 gap-0 text-sm items-center'>
                                 <span>ID # {ticket.id}</span>
                                 <span>{ticket.priority}</span>
                                 <span>{ticket.customer}</span>

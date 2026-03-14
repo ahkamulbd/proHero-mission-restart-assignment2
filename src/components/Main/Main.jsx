@@ -10,7 +10,7 @@ const fetchTickets = async () => {
 const Main = () => {
     const ticketPromise = fetchTickets ();
     return (
-        <div className='flex max-w-7xl mx-auto my-10 py-10 bg-gray-300'>
+        <div className='flex-none md:flex max-w-7xl mx-auto my-10 py-10 bg-gray-300'>
             
             <Suspense fallback = {<p>Tickets loading ........</p>}>
                 <Carts ticketPromise = {ticketPromise}></Carts>
