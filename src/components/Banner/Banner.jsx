@@ -29,7 +29,7 @@ function Banner() {
 
       {/* Resolved Card */}
       <div
-        className="h-24 rounded-lg flex flex-col items-center justify-center text-white bg-cover bg-center bg-green-500 h-[300px]"
+        className="h-24 rounded-lg flex flex-col items-center justify-center text-white bg-cover bg-center bg-green-700 h-[300px]"
         style={{ backgroundImage: `url(${ResolvedBg})` }}
       >
         <p className="text-2xl my-3">Resolved</p>
