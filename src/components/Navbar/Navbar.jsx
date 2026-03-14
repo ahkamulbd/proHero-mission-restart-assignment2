@@ -34,7 +34,10 @@ const Navbar = () => {
                 <li><a>Contact</a></li>              
               </ul>
               </div>
-              <a className="btn bg-[#422AD5] text-white"><span className='text-2xl mr-1'>+</span>New Ticket</a>
+              <a className="btn bg-[#422AD5] text-white flex items-center">
+                <span className='text-2xl mr-1'>+</span>
+                <span>New Ticket</span>
+              </a>
             </div>
           </div> 
     );
