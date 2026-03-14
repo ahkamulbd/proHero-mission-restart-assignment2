@@ -1,0 +1,91 @@
+[{
+        "id": 1,
+        "title": "Login Issue",
+        "description": "Customer cannot log into the system despite entering correct credentials.",
+        "customer": "Rahim Uddin",
+        "priority": "High",
+        "status": "In Progress",
+        "createdAt": "2025-03-01"
+    },
+    {
+        "id": 2,
+        "title": "Payment Failure",
+        "description": "Payment process stops at checkout and does not complete.",
+        "customer": "Karim Ahmed",
+        "priority": "High",
+        "status": "Open",
+        "createdAt": "2025-03-02"
+    },
+    {
+        "id": 3,
+        "title": "Password Reset Request",
+        "description": "Customer needs assistance resetting the account password.",
+        "customer": "Fatema Begum",
+        "priority": "Medium",
+        "status": "Resolved",
+        "createdAt": "2025-03-03"
+    },
+    {
+        "id": 4,
+        "title": "Dashboard Bug",
+        "description": "Statistics on the dashboard are not updating properly.",
+        "customer": "Hasan Mahmud",
+        "priority": "Medium",
+        "status": "In Progress",
+        "createdAt": "2025-03-04"
+    },
+    {
+        "id": 5,
+        "title": "Email Notification Error",
+        "description": "Customer is not receiving notification emails after ticket updates.",
+        "customer": "Nusrat Jahan",
+        "priority": "Low",
+        "status": "Open",
+        "createdAt": "2025-03-05"
+    },
+    {
+        "id": 6,
+        "title": "Account Deactivation",
+        "description": "Customer wants to permanently deactivate the account.",
+        "customer": "Sabbir Hossain",
+        "priority": "Low",
+        "status": "Resolved",
+        "createdAt": "2025-03-06"
+    },
+    {
+        "id": 7,
+        "title": "Slow Page Loading",
+        "description": "Customer reports that pages take too long to load.",
+        "customer": "Jannat Ara",
+        "priority": "Medium",
+        "status": "In Progress",
+        "createdAt": "2025-03-07"
+    },
+    {
+        "id": 8,
+        "title": "Profile Update Problem",
+        "description": "User cannot update profile information in the settings page.",
+        "customer": "Mehedi Hasan",
+        "priority": "Low",
+        "status": "Open",
+        "createdAt": "2025-03-08"
+    },
+    {
+        "id": 9,
+        "title": "Mobile App Crash",
+        "description": "The mobile app crashes immediately after login.",
+        "customer": "Shamima Akter",
+        "priority": "High",
+        "status": "In Progress",
+        "createdAt": "2025-03-09"
+    },
+    {
+        "id": 10,
+        "title": "Feature Request",
+        "description": "Customer suggested adding dark mode to the application.",
+        "customer": "Tariq Islam",
+        "priority": "Low",
+        "status": "Resolved",
+        "createdAt": "2025-03-10"
+    }
+]
