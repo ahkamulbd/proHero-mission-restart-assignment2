@@ -3,6 +3,7 @@ import dateIcon from '../../assets/dateIcon.png'
 
 const Carts = ({ticketPromise}) => {
     const ticketsData = use (ticketPromise);
+    ticketsData.map (ticket => console.log (ticket));
     // console.log (ticketsData);
     // ticketsData.map (ticket => console.log (ticket.lenth));
     return (
@@ -13,20 +14,21 @@ const Carts = ({ticketPromise}) => {
                 {
                     ticketsData.map (ticket => 
                         <div className='bg-white m-3 p-5 rounded-xl '>
+                            
                             <div className='flex justify-between items-center'>
-                                <p className='font-bold'>Login Issues - Can't Access Account</p>
+                                <p className='font-bold'>{ticket.title}</p>
                                 <button className='btn bg-[lightgreen] py-3 rounded-2xl'>Open</button>
                             </div>
-                            <p className='my-10'>
-                                Customer is unable to log in to their account. They've tried resetting their password multiple times but still...
+                            <p className='my-10 text-justify h-[100px]'>
+                                {ticket.description}
                             </p>
                             <div className='flex justify-between'>
-                                <span>ID # 1001</span>
-                                <span>HIGH PRIORITY</span>
-                                <span>John Smith</span>
+                                <span>ID # {ticket.id}</span>
+                                <span>{ticket.priority}</span>
+                                <span>{ticket.customer}</span>
                                 <span className='flex'>
                                     <img src = {dateIcon} alt="" /> 
-                                    <span>1/15/2024</span>
+                                    <span className='ml-1'>{ticket.createdAt}</span>
                                 </span>                    
                             </div>
                         </div>  
