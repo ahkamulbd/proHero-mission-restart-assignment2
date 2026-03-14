@@ -1,5 +1,6 @@
 import React, { Suspense } from 'react';
 import Carts from '../Carts/Carts';
+import TaskStatus from '../TaskStatus/TaskStatus';
 
 const fetchTickets = async () => {
     const res = await fetch ("/tickets.json")
@@ -14,9 +15,7 @@ const Main = () => {
             <Suspense fallback = {<p>Tickets loading ........</p>}>
                 <Carts ticketPromise = {ticketPromise}></Carts>
             </Suspense>
-            <div className='w-1/4 bg-blue-300'>
-                <h1>Main Part - Right</h1>
-            </div>
+            <TaskStatus></TaskStatus>
         </div>
     );
 };

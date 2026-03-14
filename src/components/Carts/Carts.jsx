@@ -8,7 +8,7 @@ const Carts = ({ticketPromise}) => {
     // ticketsData.map (ticket => console.log (ticket.lenth));
     return (
         <div className='w-3/4  pt-5'>
-            <h1 className='ml-3 text-2xl mb-3'>Customer Tickets</h1>
+            <h2 className='ml-3 text-2xl mb-3'>Customer Tickets</h2>
 
             <div className='grid grid-cols-2'>
                 {
