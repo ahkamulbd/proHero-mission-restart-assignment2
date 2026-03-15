@@ -9,7 +9,7 @@ const Footer = () => {
         <footer className = "max-w-7xl mx-auto bg-black text-white p-10">
             <section className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
                 <aside>                
-                    <h3 className = "text-xl mb-2 font-bold">CS — Ticket System</h3>
+                    <h3 className = "text-xl mb-5 font-bold ">CS — Ticket System</h3>
                     <p className = "text-xs">A Customer Support Ticket System helps businesses manage customer requests efficiently. It records issues, assigns them to agents, tracks progress, and ensures timely responses, improving organization, accountability, and overall customer satisfaction.
                         
                     </p>

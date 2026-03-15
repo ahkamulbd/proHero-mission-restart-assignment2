@@ -7,15 +7,25 @@ const fetchTickets = async () => {
     return res.json ()
 }
 
-const Main = () => {
+const Main = ({handleAddTask, tasks, handleCompleteTask}) => {
     const ticketPromise = fetchTickets ();
     return (
         <div className='flex-none md:flex max-w-7xl mx-auto my-10 py-10 bg-gray-300'>
             
             <Suspense fallback = {<p>Tickets loading ........</p>}>
-                <Carts ticketPromise = {ticketPromise}></Carts>
+
+                <Carts ticketPromise = {ticketPromise}
+                        handleAddTask = {handleAddTask}>
+                </Carts>
+
             </Suspense>
-            <TaskStatus></TaskStatus>
+            
+            <TaskStatus
+
+                tasks = {tasks}
+                handleCompleteTask = {handleCompleteTask}>
+
+            </TaskStatus>
         </div>
     );
 };
