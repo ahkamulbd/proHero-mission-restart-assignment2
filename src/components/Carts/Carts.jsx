@@ -8,7 +8,7 @@ const Carts = ({ticketPromise, handleAddTask}) => {
     // ticketsData.map (ticket => console.log (ticket.lenth));
     return (
         <div className='w-3/4  pt-5'>
-            <h2 className='ml-3 text-2xl mb-3'>Customer Tickets</h2>
+            <h2 className='ml-3 text-2xl font-bold mb-3'>Customer Tickets</h2>
 
             <div className='grid grid-cols-none md:grid-cols-2'>
                 

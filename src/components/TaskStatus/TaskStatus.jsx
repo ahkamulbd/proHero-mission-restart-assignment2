@@ -6,7 +6,7 @@ const TaskStatus = ({tasks, handleCompleteTask}) => {
 
         <div className='w-1/4 ml-5 pt-5'>
 
-            <h2 className='text-2xl mb-3'>Task Status</h2>
+            <h2 className='text-2xl font-bold mb-3'>Task Status</h2>
 
             {
                 tasks.length === 0 ?
